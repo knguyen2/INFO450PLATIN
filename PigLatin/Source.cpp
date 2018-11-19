@@ -9,7 +9,7 @@
 
 	REQUIREMENT:
 		Write a program that will translate English words into Pig Latin
-		Rules  for translating English to Pig Latin**:
+		Rules  for translating English to Pig Latin:
 			***If the word starts with a consonant, the first character is removed and added to the end of the word. An “ay” is appended to the end of the word. 
 				(E.g.: pig = igpay, latin = atinlay, job = objay, school = choolsay)
 			***If the word begins with a vowel then the word is simply appended with and “ay”.
@@ -48,7 +48,7 @@ using namespace std;
 
 
 //Declare a constant variable for maximum number of (50) characters in a C-String 
-const int MAXCHAR = 51;
+const int MAXCHAR = 50;
 
 
 //Function Declaration
